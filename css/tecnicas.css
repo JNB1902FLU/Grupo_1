@@ -1,0 +1,31 @@
+.topo {
+    position: fixed;
+    background-color: #FAF6F0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-bottom: solid;
+}
+
+.filtro {
+    width: 5rem;
+    height:5rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
