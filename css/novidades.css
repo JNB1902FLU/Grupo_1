@@ -1,0 +1,60 @@
+ 
+.topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+
+.filtro {
+    width: 5rem;
+    height:5rem;
+}
+
+main li a {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: #fdf6ec;
+    border-radius: 3rem;
+    padding: 1rem;
+
+}
+
+main li a:hover {
+    background: #f1e2cd;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff0db;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer nav a img {
+    width: 28px;
+    height: 28px;
+}
