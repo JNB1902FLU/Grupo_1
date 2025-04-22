@@ -5,27 +5,114 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
+    justify-content: space-around;
+    margin-top: 0rem;
     border-bottom: solid;
+    padding: 1.2rem 0rem 1.2rem 0rem;
+}
+
+p{
+    flex-wrap: wrap;
+    margin-left: 1rem;
 }
 
 .filtro {
-    width: 5rem;
-    height:5rem;
+    width: 2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #4b2e2e;
+    color: #000000;
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
-section{
+main {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: #fdf6ec;
+    padding: 0.4rem;
+}
+
+.pesquisa{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.5rem;
+    border: solid black;
+    border-radius: 2rem;
+    padding: 0.2rem 3rem;
+    
+}
+
+.lupa{
+    height: 2rem;
+    width: 2rem;
+}
+
+.titulo{
+    width: 100vw;
+    font-size: 2rem;
+    padding-left: 5rem;
+    margin-top: 1rem;
+    border-top: solid black;
+}
+
+.youtube{
+    display:flex;
+    padding-left: 1.2rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.video{
+    display:flex;
+    justify-content: flex-start;
+    width: 100vw;
+    border-bottom: solid;
+}
+
+footer {
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100vw;
+    background: white;
+    border-top: solid rgb(0, 0, 0);
+    margin-top: 0rem;
+    bottom: 5rem
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 4rem;
+    height: 4rem;
 }
