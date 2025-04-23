@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/perfil.css">
 </head>
 <body>
     <header>
-        <h1>MINHA CONTA</h1>
+        <h1 class="topo">MINHA CONTA</h1>
     </header>
     <main>
-        <a href="novidades.html"><h2>NOVIDADES</h2></a>
-        <a href="eventos.html"><h2>EVENTOS</h2></a>
-        <a href="cadastro.html"><h2>CADASTRAR</h2></a>
-        <h2>CONFIGURAR</h2>
-        <h2>SEGURANÇA</h2>
-        <h2>HUB DE GESTÃO</h2>
+        <div class="botoes">
+            <a class="texto" href="novidades.html"><h2 class="click">NOVIDADES</h2></a>
+            <a class="texto" href="eventos.html"><h2 class="click">EVENTOS</h2></a>
+            <a class="texto" href="cadastro.html"><h2 class="click">CADASTRAR</h2></a>
+            <h2 class="click">CONFIGURAÇÃO</h2>
+            <h2 class="click">SEGURANÇA</h2>
+            <h2 class="click">HUB DE GESTÃO</h2>
+        </div>
     </main>
     <footer>
-        <nav>
+        <nav class="baixo">
             <a href="index.html"><img src="img/casa.png" alt="Botão home"></a>
-            <a href="eventos.html"><img src="img/evento.png" alt="Botão de evento"></a>
             <a href="novidades.html"><img src="img/novidade.png" alt="Botão novidades"></a>
+            <a href="eventos.html"><img src="img/evento.png" alt="Botão de evento"></a>
             <a href="perfil.html"><img src="img/perfil.png" alt="Botão de perfil"></a>
         </nav>
     </footer>
