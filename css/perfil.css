@@ -18,6 +18,7 @@ main{
     border-bottom: solid;
     padding: 1.2rem 0rem 1.2rem 0rem;
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 
@@ -43,8 +44,8 @@ main{
     color: black;
     text-decoration: none;
     border: solid #D97E58;
-    border-width: 0.2rem;
-    border-radius: 2rem;
+    border-width: 0.1rem;
+    border-radius: 1rem;
     text-align: center;
     font-size: 2rem;
     padding: 0.8rem 0rem;
