@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <h1>
-            Página inicial
+        <h1 class="topo">
+            PÁGINA INICIAL
         </h1>
     </header>
-    <main>
-        <img src="img/calendario.png" alt="Calendário da página inicial">
+    <main class="meio">
+        <div>
+            <p class="data">23/04/2025</p>
+            <a href="eventos.html"><img class="calendario" src="img/calendario.png" alt="Calendário da página inicial"></a>
+            <p class="evento">Adicione um evento ao seu calendário!</p>
+        </div>
     </main>
     <footer>
-        <nav>
-            <a href="index.html"><img src="img/casa.png" alt="Botão home"></a>
-            <a href="eventos.html"><img src="img/evento.png" alt="Botão de evento"></a>
-            <a href="novidades.html"><img src="img/novidade.png" alt="Botão novidades"></a>
-            <a href="perfil.html"><img src="img/perfil.png" alt="Botão de perfil"></a>
+        <nav class="baixo">
+            <a class="botoes" href="index.html"><img src="img/casa.png" alt="Botão home"></a>
+            <a class="botoes" href="novidades.html"><img src="img/novidade.png" alt="Botão novidades"></a>
+            <a class="botoes" href="eventos.html"><img src="img/evento.png" alt="Botão de evento"></a>
+            <a class="botoes" href="perfil.html"><img src="img/perfil.png" alt="Botão de perfil"></a>
         </nav>
     </footer>
 </body>
