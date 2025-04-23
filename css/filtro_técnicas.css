@@ -1,0 +1,99 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 5vw;
+    font-weight: bold
+}
+  
+body {
+    margin: 0;
+    background-color: #fdf6ec;
+  }
+  
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 20vw;
+    background-color: #FAF6F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-bottom: 0.1rem solid black;
+    font-size: 6vw;
+  }
+
+.titulo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #4b2e2e;
+    margin: 0;
+    text-align: center;
+  }
+  
+.icone-voltar {
+    position: absolute;
+    left: 0.5rem;
+    top: 25%;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+.filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22vw;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+.filtro-bloco {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 0.2rem solid #D97E58;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+h3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+  
+.titulo-filtro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4b2e2e;
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    border-top: 0.1rem solid black;
+    height: 27vw;
+    background-color: #fdf6ec;
+}
+
+
+footer a img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
