@@ -9,7 +9,7 @@ html {
   
   body {
     margin: 0;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
   }
   
 header {
@@ -29,7 +29,7 @@ header {
   .titulo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #4b2e2e;
+    color: #2E2E2E;
     margin: 0;
     text-align: center;
   }
@@ -54,7 +54,7 @@ header {
   .filtro-bloco {
     width: 100%;
     background-color: #fff;
-    border: 0.2rem solid #D97E58;
+    border: 0.2rem solid #c6a15b;
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
@@ -63,7 +63,7 @@ header {
   .titulo-filtro {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #4b2e2e;
+    color: #2E2E2E;
     margin-bottom: 0.5rem;
   }
   
@@ -83,7 +83,7 @@ header {
     width: 100vw;
     border-top: 0.2rem solid black;
     height: 19vw;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
   }
   
   .baixo{

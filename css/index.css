@@ -30,7 +30,6 @@ div{
 .evento{
     display: flex;
     justify-content: center;
-
     align-items: center;
     font-size: 1.5rem;
     width: 100vw;
@@ -41,20 +40,20 @@ div{
     font-size: 3rem;
     font-style: italic;
     text-decoration: none; 
+    font-weight: bold;
+    text-decoration: none; 
+    margin: 0;
+    padding: 0;
 }
 
 .calendario{
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 12rem;
-    width: 12rem;
+    height: 25rem;
+    width: 28rem;
+    margin-top: auto;
 }
-
-
-
-
-
 
 footer {
     display: flex;
