@@ -10,7 +10,7 @@ html {
   
 body {
     margin: 0;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
   }
   
 header {
@@ -58,7 +58,7 @@ header {
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #FAF6F0;
     border: 0.2rem solid #c6a15b;
     border-radius: 1rem;
     padding: 1rem;
@@ -70,7 +70,7 @@ header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #FAF6F0;
     border: 0.2rem solid #c6a15b;
     border-radius: 1rem;
     padding: 1rem;
@@ -110,7 +110,7 @@ footer {
   width: 100vw;
   border-top: 0.2rem solid black;
   height: 19vw;
-  background-color: #fdf6ec;
+  background-color: #FAF6F0;
 }
 
 .baixo{

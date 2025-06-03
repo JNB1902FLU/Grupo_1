@@ -3,18 +3,18 @@ html {
 }
 
 body {
-    background-color: #fdf6ec;
-    color: #4b2e2e;
+    background-color: #FAF6F0;
+    color: #2E2E2E;
 }
 
 a {
-    color: #4b2e2e;
+    color: #2E2E2E;
     text-decoration: none;
 }
 
 header {
     position: fixed;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ header {
     justify-content: center;
     border-bottom: 0.2rem solid black;
     padding: 1.2rem 0;
-    color: #4b2e2e
+    color: #2E2E2E
 }
 
 header nav {
@@ -78,7 +78,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fdf6ec;
+    background: #FAF6F0;
     padding: 1.5rem 1rem 7rem;
     gap: 2rem;
 }
@@ -92,7 +92,7 @@ main {
 
 
 .evento-card:hover {
-    background-color: #D97E58;
+    background-color: #c6a15b;
 }
 
 
@@ -119,7 +119,7 @@ main {
 
 .evento-conteudo p {
     font-size: 1rem;
-    color: #4b2e2e;
+    color: #2E2E2E;
     max-width: 65%;
 }
 
@@ -134,7 +134,7 @@ footer {
     width: 100vw;
     border-top: 0.2rem solid black;
     height: 19vw;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
   }
   
   .baixo{
@@ -145,7 +145,7 @@ footer {
   }
   
   footer a img {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
   

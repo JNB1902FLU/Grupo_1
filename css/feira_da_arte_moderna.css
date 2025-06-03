@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    background-color: #fdf6ec;
-    color: #4b2e2e;
+    background-color: #FAF6F0;
+    color: #2E2E2E;
 }
 
 a {
-    color: #4b2e2e;
+    color: #2E2E2E;
     text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ header nav img {
 main {
     margin-top: 5.5rem; 
     padding: 1.5rem 1rem 7rem;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -85,7 +85,7 @@ main {
 
 .info {
     font-size: 0.9rem;
-    color: #4b2e2e;
+    color: #2E2E2E;
 }
 
 .descricao {
@@ -104,7 +104,7 @@ footer {
     width: 100vw;
     border-top: 0.2rem solid black;
     height: 19vw;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
   }
   
   .baixo{
