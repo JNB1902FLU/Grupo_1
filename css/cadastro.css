@@ -1,17 +1,17 @@
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html {
-    font-size: 5vw;
-    font-weight: bold
+body, html {
+  height: 100%;
+  width: 100%;
+  font-size: 5vw;
+  font-weight: bold;
+  margin: 0;
+  background-color: #FAF6F0;
 }
-  
-body {
-    margin: 0;
-    background-color: #FAF6F0;
-  }
   
 header {
     position: fixed;
@@ -21,10 +21,11 @@ header {
     background-color: #FAF6F0;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     padding: 0 1rem;
     border-bottom: 0.1rem solid black;
-    font-size: 7vw;
+    font-size: 2rem;
   }
 
 .titulo {
@@ -47,6 +48,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin-top: 22vw;
     padding: 1rem;
     padding-bottom: 22vw;
@@ -69,12 +71,19 @@ header {
     width: 100%;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #FAF6F0;
     border: 0.2rem solid #c6a15b;
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+.filtro-bloco h3 {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    padding-right: 1rem;
 }
 
 .botao{
@@ -98,6 +107,22 @@ header {
     border-color: black;
     border-radius: 0.2rem;
     border-width: 0.15rem;
+}
+
+.input_faixa{
+    border-color: black;
+    border-radius: 0.2rem;
+    border-width: 0.15rem;
+    width: 30%;
+    text-align: center;
+}
+
+.filtro-bloco p {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-self: center;
+    
 }
 
 footer {
