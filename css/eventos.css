@@ -83,6 +83,14 @@ header nav a img {
 text-align: center
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 main {
     font-size: 1rem;
     display: flex;

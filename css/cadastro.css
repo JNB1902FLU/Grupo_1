@@ -81,7 +81,6 @@ header {
 
 .filtro-bloco h3 {
     text-align: center;
-    padding: auto;
     margin: auto;
     padding-right: 1rem;
 }
@@ -123,6 +122,14 @@ header {
     padding-right: 1rem;
     align-self: center;
     
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 footer {
