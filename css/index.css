@@ -1,14 +1,14 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body, html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background-color: #FAF6F0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #FAF6F0;
 }
 
 .topo {
@@ -57,6 +57,7 @@ div{
 .aviso{
     padding-top: 1rem;
 }
+
 .calendario{
     display:flex;
     justify-content: center;
@@ -76,7 +77,7 @@ footer {
     width: 100vw;
     border-top: 0.2rem solid black;
     height: 19vw;
-    background-color: #fdf6ec;
+    background-color: #FAF6F0;
 }
 
 .baixo{
