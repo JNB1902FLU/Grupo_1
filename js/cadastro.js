@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (algumVazio) {
             alert('Por favor, preencha todos os campos antes de enviar o cadastro.');
         } else {
-            window.location.href = 'calendario2.html';
+            window.location.href = 'index.html';
         }
     });
 });
