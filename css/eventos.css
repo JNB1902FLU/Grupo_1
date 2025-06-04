@@ -79,6 +79,10 @@ header nav a img {
     font-size: 1.1rem;
 }
 
+.pesquisa input {
+text-align: center
+}
+
 main {
     font-size: 1rem;
     display: flex;
